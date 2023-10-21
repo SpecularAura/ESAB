@@ -1,0 +1,9 @@
+PORT=3000
+NODE_ENV="development"
+DATABASE_URI="mongodb+srv://<usernmae>:<password>@cluster0.hajg9ff.mongodb.net/chatapp?retryWrites=true&w=majority"
+SESSION_NAME="sid"
+SESSION_SECRET="USE A HASH VALUE HERE LATER"
+SESSION_LIFETIME="7200000"
+KEY_FILE=
+CERT_FILE=
+HTTPS_ENABLED="false"
