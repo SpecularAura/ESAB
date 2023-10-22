@@ -21,6 +21,8 @@ This will setup Thunder Client and Prettier as the formatter of choice and enabl
 
 You must create a .env file with the following variables in order for the express app to work:
 PORT: The port to use.Thunder Client id configured to send requests to 5000  
+
+```
 NODE_ENV: set to "production" during production. Otherwise set to "development"
 DATABASE_URI: The mongodb databse uri
 SESSION_NAME: The string which specifies the name of the collection used for storing sessions  
@@ -29,8 +31,9 @@ SESSION_LIFETIME: A string specifying the value in milliseconds of the lifetime 
 HTTPS_ENABLED: If you want to use https for testing set it to "true"  
 KEY_FILE: Used if HTTPS_ENABLED is "true"  
 CERT_FILE: Used if HTTPS_ENABLED is "true"
+```
 
-An example of the env file is provided in example-env
+An example of the env file is provided in [example-env](example-env)
 
 ## Install the dependencies
 
