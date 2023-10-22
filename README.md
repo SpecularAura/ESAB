@@ -1,4 +1,6 @@
-# Work in Progress
+# Express Session Based Authentication Boilerplate
+
+This project is a boilerplate for session based authentication in express and MongoDB. It serves as a starting point for hackathons and projects that require authentication. It provides the code as well as the basic template to get started with developing directly in VSCode.
 
 ## Profile
 
