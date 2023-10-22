@@ -6,9 +6,9 @@ This project is a boilerplate for session based authentication in express and Mo
 
 `WevDev.code-profile` has all the required extensions and settings to start your project in VScode
 
-Go to Gear Icon (Bottom Left) -> Profiles -> Import Profile -> Select File
-Locate the file that is present in the project directory names `Web Dev.code-profile`
-This will setup Thunder Client and Prettier as the formatter of choice and enable format on save
+- Go to Gear Icon (Bottom Left) -> Profiles -> Import Profile -> Select File
+- Locate the file that is present in the project directory names `Web Dev.code-profile`.
+- This will setup Thunder Client and Prettier as the formatter of choice and enable format on save
 
 ## Load the thunder client collection
 
@@ -20,7 +20,7 @@ This will setup Thunder Client and Prettier as the formatter of choice and enabl
 ## Configure the environment
 
 You must create a .env file with the following variables in order for the express app to work:
-PORT: The port to use.Thunder Client id configured to send requests to 5000  
+PORT: The port to use. Thunder Client id configured to send requests to 5000  
 
 ```
 NODE_ENV: set to "production" during production. Otherwise set to "development"
@@ -41,4 +41,4 @@ Run `npm install` in the command line
 
 ## Run the server
 
-- Run the server in the terminal `npm run dev`. This will start a nodemon server on port 5000 by default
+Run the server in the terminal `npm run dev`. This will start a nodemon server on port 5000 by default
