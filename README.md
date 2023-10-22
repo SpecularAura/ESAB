@@ -13,7 +13,7 @@ This will setup Thunder Client and Prettier as the formatter of choice and enabl
 ## Load the thunder client collection
 
 - Go to Thunder Client Extension from the sidebar
-- Go to collections and click on the menu button present beside the search bar
+- Go to collections and click on the menu button present beside the search bar  
   ![Screenshot showing how to locate the menu](image.png)
 - Click on Import and locate the file. The file is present in the .vscode/thunder-collection_auth-boilerplate.json
 
