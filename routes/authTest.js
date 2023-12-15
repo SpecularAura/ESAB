@@ -1,9 +1,9 @@
 const express = require("express");
 const authorize = require("../middleware/authorize");
 const { ROLES_LIST, ROLE_GROUPS } = require("../constants");
-const auhtenticate = require("../middleware/authenticate");
+const authenticate = require("../middleware/authenticate");
 const router = express.Router();
-router.get("/", auhtenticate, (req, res) => {
+router.get("/", authenticate, (req, res) => {
   res.json({
     msg: "You are authenticated",
   });
