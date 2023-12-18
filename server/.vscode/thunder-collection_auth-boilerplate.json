@@ -1,0 +1,113 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "auth-boilerplate",
+    "dateExported": "2023-12-17T20:20:51.530Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "03a75dd2-81ab-47b8-b6b1-07de859d3db1",
+            "colId": "68e2ba14-cef7-4443-978f-93cd2fa5644f",
+            "containerId": "",
+            "name": "Login",
+            "url": "/login",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2023-12-13T10:56:26.645Z",
+            "modified": "2023-12-17T20:16:38.521Z",
+            "headers": [
+                {
+                    "name": "Accept",
+                    "value": "application/json"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"user\": \"role3\",\n  \"pwd\": \"root\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "140bcc68-dd77-46f4-8ee3-f114f502460d",
+            "colId": "68e2ba14-cef7-4443-978f-93cd2fa5644f",
+            "containerId": "",
+            "name": "Register",
+            "url": "/register",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2023-12-13T10:56:26.646Z",
+            "modified": "2023-12-13T10:56:26.646Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"user\": \"role3\",\n  \"pwd\": \"root\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "a02192ba-ef31-47dc-a4b7-a3d39cabee40",
+            "colId": "68e2ba14-cef7-4443-978f-93cd2fa5644f",
+            "containerId": "",
+            "name": "Check",
+            "url": "",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2023-12-13T10:56:26.647Z",
+            "modified": "2023-12-13T10:56:26.647Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "d2a93e41-0497-46e0-8c31-6c76a948e57a",
+            "colId": "68e2ba14-cef7-4443-978f-93cd2fa5644f",
+            "containerId": "",
+            "name": "Logout",
+            "url": "/logout",
+            "method": "GET",
+            "sortNum": 40000,
+            "created": "2023-12-13T10:56:26.648Z",
+            "modified": "2023-12-13T10:56:26.648Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "d346d6d3-7262-4433-ab30-d0360456263e",
+            "colId": "68e2ba14-cef7-4443-978f-93cd2fa5644f",
+            "containerId": "",
+            "name": "authTest",
+            "url": "/authTest",
+            "method": "GET",
+            "sortNum": 50000,
+            "created": "2023-12-13T10:56:26.649Z",
+            "modified": "2023-12-13T10:56:26.649Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "1d71624d-4562-4544-bc25-372439067017",
+            "colId": "68e2ba14-cef7-4443-978f-93cd2fa5644f",
+            "containerId": "",
+            "name": "authorize",
+            "url": "/authTest/role3",
+            "method": "GET",
+            "sortNum": 60000,
+            "created": "2023-12-13T10:56:26.650Z",
+            "modified": "2023-12-13T10:56:26.650Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        }
+    ],
+    "settings": {
+        "options": {
+            "baseUrl": "http://localhost:5000"
+        }
+    }
+}
