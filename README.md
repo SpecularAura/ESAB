@@ -1,5 +1,5 @@
-# Fronted and Backend template for authentication 
-This repo contains frontend code in React + ChakraUI which provides the template for Registration, Login and Protected Routes which is fully complete with basic form validation      
+# Frontend and Backend template for authentication 
+This repository contains frontend code in React + ChakraUI which provides the template for Registration, Login and Protected Routes which is fully complete with basic form validation      
 It also contains the backend code written in express which implements Session Based Authentication and works nicely with the frontend with React      
 If you don't want to use React the backend template can be used without it and can be found at <https://github.com/SpecularAura/ESAB/tree/master>    
 To find usage go to the README of the respective folders:    
